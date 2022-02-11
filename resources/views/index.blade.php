@@ -42,7 +42,7 @@
                 @method('PUT')
                 @csrf
                 <td>
-                  <input type="text" name="content" class="input_text" value="{{$item->content}}">
+                  <input type="text" name="content" class="input-text" value="{{$item->content}}">
                 </td>
                 <td>
                   <input type="submit" class="btn btn-update" value="更新">
@@ -58,7 +58,9 @@
           </tr>
         @endforeach
       </table>
-      {{ $items->links() }}
+      <div class="pagination-container flex">
+        {{ $items->links('vendor.pagination.default') }}
+      </div>
     </div>
   </div>
 </body>

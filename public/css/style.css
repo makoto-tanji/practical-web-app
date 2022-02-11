@@ -62,11 +62,11 @@ input{
 
 .container{
     width: 750px;
-    margin: 200px auto;
+    margin: 150px auto;
     background-color: #fff;
     border-radius: 10px;
     flex-direction: column;
-    padding:20px
+    padding:30px
 }
 .main-container{
     width:100%;
@@ -79,9 +79,18 @@ input{
 .input-add{
     width:80%;
 }
+.input-text{
+    line-height: 30px;
+}
 
 /* for paginate */
 svg.w-5.h-5 {
     width: 30px;
     height: 30px;
-    }
+}
+.pagination-container{
+    justify-content: center;
+}
+.pagination > li{
+    display: inline;
+}

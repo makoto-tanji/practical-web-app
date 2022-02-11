@@ -18,7 +18,7 @@ class TodoController extends Controller
         //
         // $items = Todo::all();
         // ページネーションが動作しない時用に残しています。
-        $items = Todo::Paginate(4);
+        $items = Todo::Paginate(10);
         return view('index', ['items' => $items]);
     }
 
