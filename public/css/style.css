@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    margin: 5px;
+    background-color: rgb(45, 19, 124);
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+input{
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 5px;
+}
+
+.flex{
+    display: flex;
+}
+.ttl-todo{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.btn {
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn-add {
+    border-color: rgb(172, 72, 172);
+    color: rgb(172, 72, 172);
+    margin-left: 20px;
+}
+.btn-update {
+    border-color: rgb(255, 164, 104);
+    color: rgb(255, 164, 104);
+}
+.btn-delete {
+    border-color: rgb(85, 192, 206);
+    color: rgb(85, 192, 206);
+}
+.btn-add:hover {
+    transition: 0.3s;
+    background-color: rgb(172, 72, 172);
+    color: white;
+}
+.btn-update:hover {
+    transition: 0.3s;
+    background-color: rgb(255, 164, 104);
+    color: white;
+}
+.btn-delete:hover {
+    transition: 0.3s;
+    background-color: rgb(85, 192, 206);
+    color: white;
+}
+
+.container{
+    width: 750px;
+    margin: 200px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    padding:20px
+}
+.main-container{
+    width:100%;
+}
+.form-add{
+    width:100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.input-add{
+    width:80%;
+}
+
+/* for paginate */
+svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
+    }
