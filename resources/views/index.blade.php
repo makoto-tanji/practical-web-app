@@ -30,14 +30,14 @@
 
       <table>
         <tr>
-          <th>作成日</th>
+          <th class="date-column">作成日</th>
           <th>タスク名</th>
           <th>更新</th>
           <th>削除</th>
         </tr>
         @foreach ($items as $item)
           <tr>
-            <td>{{$item->created_at}}</td>
+            <td class="date-column">{{$item->created_at}}</td>
               <form action="/todos/{{$item->id}}" method="POST">
                 @method('PUT')
                 @csrf
